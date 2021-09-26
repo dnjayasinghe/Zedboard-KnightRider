@@ -1,0 +1,70 @@
+#################################
+### ZEDBoard Constraints
+### V1.0
+### Written By Darshana Jayasinghe
+### darshanaj@cse,unsw.edu.au
+#################################
+
+
+NET "clk" TNM_NET = "CLK_OSC_GRP";
+TIMESPEC TS_CLK_OSC = PERIOD "CLK_OSC_GRP" 10.0000 ns HIGH 50 %;
+
+
+
+NET "clk" LOC = Y9;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "clk" DRIVE = 4;
+NET "clk" SLEW = FAST;
+
+
+NET "rst" LOC = P16;
+NET "rst" IOSTANDARD = LVCMOS33;
+NET "rst" DRIVE = 4;
+NET "rst" SLEW = FAST;
+
+
+
+
+# --------
+# User LED
+# --------
+// "M_LED<0>"
+NET "leds[0]" LOC = T22;
+NET "leds[0]" IOSTANDARD = LVCMOS33;
+NET "leds[0]" DRIVE = 4;
+NET "leds[0]" SLEW = SLOW;
+// "M_LED<1>"
+NET "leds[1]" LOC = T21;
+NET "leds[1]" IOSTANDARD = LVCMOS33;
+NET "leds[1]" DRIVE = 4;
+NET "leds[1]" SLEW = SLOW;
+// "M_LED<2>"
+NET "leds[2]" LOC = U22;
+NET "leds[2]" IOSTANDARD = LVCMOS33;
+NET "leds[2]" DRIVE = 4;
+NET "leds[2]" SLEW = SLOW;
+// "M_LED<3>"
+NET "leds[3]" LOC = U21;
+NET "leds[3]" IOSTANDARD = LVCMOS33;
+NET "leds[3]" DRIVE = 4;
+NET "leds[3]" SLEW = SLOW;
+// "M_LED<4>"
+NET "leds[4]" LOC = V22;
+NET "leds[4]" IOSTANDARD = LVCMOS33;
+NET "leds[4]" DRIVE = 4;
+NET "leds[4]" SLEW = SLOW;
+// "M_LED<5>"
+NET "leds[5]" LOC = W22;
+NET "leds[5]" IOSTANDARD = LVCMOS33;
+NET "leds[5]" DRIVE = 4;
+NET "leds[5]" SLEW = SLOW;
+// "M_LED<6>"
+NET "leds[6]" LOC = U19;
+NET "leds[6]" IOSTANDARD = LVCMOS33;
+NET "leds[6]" DRIVE = 4;
+NET "leds[6]" SLEW = SLOW;
+// "M_LED<7>"
+NET "leds[7]" LOC = U14;
+NET "leds[7]" IOSTANDARD = LVCMOS33;
+NET "leds[7]" DRIVE = 4;
+NET "leds[7]" SLEW = SLOW;

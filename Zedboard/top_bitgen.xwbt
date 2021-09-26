@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=H:\OneDrive - UNSW\My Onedrive\PhD\Src\GitHub\Zedboard-knightrider\Zedboard-KnightRider\Zedboard\top.ncd
+OUTFILE=H:\OneDrive - UNSW\My Onedrive\PhD\Src\GitHub\Zedboard-knightrider\Zedboard-KnightRider\Zedboard\top.bit
+FAMILY=Zynq
+PART=xc7z020-1clg484
+WORKINGDIR=H:\OneDrive - UNSW\My Onedrive\PhD\Src\GitHub\Zedboard-knightrider\Zedboard-KnightRider\Zedboard
+LICENSE=ISE
+USER_INFO=176080079_176910363_210559698_406

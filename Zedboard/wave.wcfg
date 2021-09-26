@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/OneDrive - UNSW/My Onedrive/PhD/Src/GitHub/Zedboard-knightrider/Zedboard-KnightRider/Zedboard/test_top_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/test_top/leds" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">leds[7:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/leds" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">leds[7:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/CURRENT_STATE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CURRENT_STATE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CURRENT_STATE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/NEXT_STATE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">NEXT_STATE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NEXT_STATE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/ledReg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ledReg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ledReg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/dir" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dir</obj_property>
+      <obj_property name="ObjectShortName">dir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/WIDTH" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/MAX" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/IDLE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IDLE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/START" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">START[3:0]</obj_property>
+      <obj_property name="ObjectShortName">START[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/COUNT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">COUNT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/SHIFTLEFT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SHIFTLEFT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SHIFTLEFT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/SHIFTRIGHT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SHIFTRIGHT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SHIFTRIGHT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/END" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">END[3:0]</obj_property>
+      <obj_property name="ObjectShortName">END[3:0]</obj_property>
+   </wvobject>
+</wave_config>
